@@ -15,7 +15,6 @@ export default class Movie extends Component {
     `
 
     await getMovieDetails(history.state.id)
-    console.log(movieStore.state.movie)
 
     const { movie } = movieStore.state
 
